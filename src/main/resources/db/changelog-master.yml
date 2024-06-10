@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: migration/create_table_posts.sql
+      errorIfMissingOrEmpty: true
+      relativeToChangelogFile: true
